@@ -1,0 +1,117 @@
+#VRML_SIM V7.4.0 utf8
+WorldInfo {
+  info [
+    "Aldebaran's Nao H25 V4.0"
+    "Author: Yvan Bourquin - www.cyberbotics.com"
+    "Date: 06 Feb 2012"
+  ]
+  title "Aldebaran Nao H25 V4.0"
+  basicTimeStep 20
+}
+Viewpoint {
+  orientation -0.215635 -0.947225 -0.237207 1.76685
+  position -12.3484 7.42083 0.0829364
+  follow "NAO_H25_V40"
+}
+Background {
+  skyColor [
+    0.66 0.66 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.4 -0.7 -0.3
+  intensity 0.6
+  castShadows TRUE
+}
+PointLight {
+  ambientIntensity 1
+  intensity 0.6
+  location 2 0.9 0
+}
+Floor {
+  size 25 25
+  tileSize 0.8 0.8
+  texture [
+    "textures/grid.png"
+  ]
+}
+OilBarrel {
+  translation 2.25167 0.44 7.0689
+}
+OilBarrel {
+  translation 6.2774 0.44 2.29737
+}
+OilBarrel {
+  translation -2.49911 0.44 2.27026
+}
+OilBarrel {
+  translation 2.26073 0.44 -1.66864
+}
+OilBarrel {
+  translation 6.22712 0.44 7.14963
+}
+OilBarrel {
+  translation -2.41731 0.44 -1.6132
+}
+SingleDoorEntree {
+  translation 3.82667 0.03 3.06885
+  rotation 0 1 0 0.785398
+}
+PottedTree {
+  translation -0.0919756 -3.89039e-13 -1.61928
+}
+OilBarrel {
+  translation 1.40311 0.44 7.1464
+}
+OilBarrel {
+  translation -2.53206 0.44 3.11522
+}
+OilBarrel {
+  translation 6.20889 0.44 3.12943
+}
+OilBarrel {
+  translation 1.4471 0.44 -1.70136
+}
+OilBarrel {
+  translation -2.49474 0.44 7.05384
+}
+OilBarrel {
+  translation 6.29222 0.44 -1.61006
+}
+OilBarrel {
+  translation 2.31017 0.44 1.5201
+  rotation 0 1 0 3.66519
+}
+OilBarrel {
+  translation -0.907482 0.44 3.08152
+}
+OilBarrel {
+  translation -0.947255 0.44 2.32435
+}
+OilBarrel {
+  translation -0.887497 0.44 3.96296
+}
+OilBarrel {
+  translation 1.51775 0.44 1.51883
+}
+OilBarrel {
+  translation 0.716976 0.44 1.50765
+}
+OilBarrel {
+  translation 3.17647 0.44 -0.0808979
+}
+OilBarrel {
+  translation 2.34033 0.44 0.7391
+}
+OilBarrel {
+  translation -0.897183 0.44 1.52277
+}
+OilBarrel {
+  translation 2.3361 0.44 -0.0329268
+}
+SphericalSkyDome {
+}
+Nao {
+  translation -0.159447 0.34 -0.0990276
+}
