@@ -1,0 +1,3 @@
+[submodule "pyailib"]
+	path = pyailib
+	url = git://github.com/evenmarbles/pyailib.git
